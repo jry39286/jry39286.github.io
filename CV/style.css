@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(187, 230, 255);
+    display: flex;
+    justify-content: right;
+    border-bottom: 2px solid black;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 2px;
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav a:hover {
+    color: rgb(67, 211, 255);
+    background-color: rgb(0, 109, 160);
+    border-radius: 3px;
+}
+
+footer {
+    background-color: rgb(187, 230, 255);
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer a:hover {
+    color: rgb(67, 211, 255);
+    background-color: rgb(0, 109, 160);
+    border-radius: 3px;
+}
+
+.title { 
+    width: 100%;
+    padding-top: 275px;
+    padding-bottom: 525px;
+    background-image: url(Images/sunset_background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* .title */
+h1 {
+    margin-bottom: 50px;
+    font-size: 7em;
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 18, 78);
+    text-align: center;
+}
+
+.title h2 {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2em;
+    color: rgb(0, 18, 78);
+    text-align: center;
+}
+
+.UGA-logo {
+    position: absolute;
+    border-radius: 100%;
+    width: 175px;
+    height: 110px;
+    object-fit: cover;
+    margin-top: 115px;
+    left: 45.5%;
+}
+
+.Driftmier-logo {
+    position: absolute;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 17%;
+    margin-top: 100px;
+}
+
+.Franklin-logo {
+    position: absolute;
+    padding: 5px;
+    border-radius: 10px;
+    right: 17%;
+    margin-top: 100px;
+}
+
+.content {
+    background-image: linear-gradient(rgba(177, 239, 255, 0.74), rgba(0, 162, 202, 0.74));
+    background-size: contain;
+    padding: 50px 0px;
+}
+
+.headshot {
+    display: block;
+    margin: 0% auto;
+    border-radius: 100%;
+    height: 300px;
+    border: 2px solid rgb(47, 130, 179);
+    object-fit: cover;
+}
+
+.content h2, h3 {
+    color: rgba(255, 85, 6);
+    text-align: center;
+    font-size: 2em;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 40px;
+}
+/* .content */
+p {
+    text-align: center;
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content a {
+    color: blue;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.content a:hover {
+    background-color: rgba(78, 220, 255, 0.74);
+    border-radius: 4px;
+}
+
+hr {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1em dotted rgb(3, 23, 90);
+    width: 10%;
+    margin: 150px auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: rgb(245, 245, 245);
+    border-radius: 15px; 
+    margin: 15px;
+    border: 2px solid rgb(47, 130, 179);
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    justify-content: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.lang-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-content: space-evenly;
+    padding-left: 70px;
+}
+
+.lang-list li {
+    padding: 5px 0px;
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.exp-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-content: space-evenly;
+    text-align: center;
+    padding: 0px;
+}
+
+.exp-list li {
+    padding: 10px 0px;
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.skill-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    list-style-type: none;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    padding: 0px;
+}
+
+.skill-list dt {
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.skill-list dd {
+    padding-bottom: 10px;
+    margin: 0%;
+}
+
+.three-col {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 25%;
+    margin: 0 auto 60px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin: 0 auto;
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 50%;
+    margin: 0 auto;
+}
+
+textarea {
+    height: 100px;
+    width: 75%;
+    margin: 0 auto;
+}
